@@ -61,5 +61,4 @@ public class UberDriver {
         return Math.max(ratePerMinute*minutes,minimum);
     }
 
-
 }

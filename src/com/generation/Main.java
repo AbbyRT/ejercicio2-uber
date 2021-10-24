@@ -58,5 +58,6 @@ public class Main {
         System.out.println("Nueva tarifa minima Uber Black: "+uberBlack.getMinimum());
         uberBlack.setRatePerKm(3);
         System.out.println("Nueva tarifa por km: "+uberBlack.getRatePerKm());
+
     }
 }
