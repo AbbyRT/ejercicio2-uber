@@ -60,5 +60,4 @@ public class UberDriver {
         //        Implementa una versión del método CalcularPrecio que calcule el precio en función de los minutos (un número entero) en lugar de km.
         return Math.max(ratePerMinute*minutes,minimum);
     }
-
 }

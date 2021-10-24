@@ -47,8 +47,8 @@ public class Main {
         System.out.println("UberBlack-Precio de un viaje de "+km+"km= "+ viajeBlack);
 
         //ejercicio 2 (opcional)
-//        Implementa una versión del método CalcularPrecio que calcule el precio en función de los minutos (un número entero) en lugar de km.
-//        Haz que el conductor Uber Black tenga $10 como tarifa mínima y $3 por km.
+//Implementa una versión del método CalcularPrecio que calcule el precio en función de los minutos (un número entero) en lugar de km.
+//Haz que el conductor Uber Black tenga $10 como tarifa mínima y $3 por km.
         System.out.println("------------------------------");
         System.out.println("Ejercicio 2");
         double viaje2 = normal.calculatePriceMin(minutes);
