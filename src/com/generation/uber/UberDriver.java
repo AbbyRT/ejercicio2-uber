@@ -56,6 +56,10 @@ public class UberDriver {
         //la tarifa minima es 7, si la multiplicacion resulta menor a 7, se
         //devuelve un 7 :v
     }
+    public double calculatePriceMin(int minutes){
+        //        Implementa una versión del método CalcularPrecio que calcule el precio en función de los minutos (un número entero) en lugar de km.
+        return Math.max(ratePerMinute*minutes,minimum);
+    }
 
 
 }

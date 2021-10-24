@@ -10,5 +10,5 @@ public class ConductorUberBlack extends UberDriver{
         super(name);
 
     }
-
+//        Haz que el conductor Uber Black tenga $10 como tarifa mínima y $3 por km.
 }

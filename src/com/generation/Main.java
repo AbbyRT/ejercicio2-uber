@@ -33,6 +33,7 @@ public class Main {
         //calcular e imprimir el precio de un viaje de
         //6km para cada tipo de conductor
         double km = 6;
+        int minutes = 30;
         UberDriver normal = new UberDriver("conductor1");
         System.out.println(normal.getName());
         double viaje1 =normal.calculatePrice(km);
@@ -48,7 +49,14 @@ public class Main {
         //ejercicio 2 (opcional)
 //        Implementa una versión del método CalcularPrecio que calcule el precio en función de los minutos (un número entero) en lugar de km.
 //        Haz que el conductor Uber Black tenga $10 como tarifa mínima y $3 por km.
-
-
+        System.out.println("------------------------------");
+        System.out.println("Ejercicio 2");
+        double viaje2 = normal.calculatePriceMin(minutes);
+        System.out.println("Costo de viaje por "+minutes+" minutos = "+viaje2);
+        // Haz que el conductor Uber Black tenga $10 como tarifa mínima y $3 por km.
+        uberBlack.setMinimum(10);//tarifa minima
+        System.out.println("Nueva tarifa minima Uber Black: "+uberBlack.getMinimum());
+        uberBlack.setRatePerKm(3);
+        System.out.println("Nueva tarifa por km: "+uberBlack.getRatePerKm());
     }
 }
